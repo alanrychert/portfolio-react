@@ -4,10 +4,8 @@ html {
 
 body {
   margin: 0;
-  font-family: 300 11px/1.4 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  color:#7a7a7a;
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  color:#ffd700;
   background-color: #01080c;
   overflow: hidden;
   display: block;
