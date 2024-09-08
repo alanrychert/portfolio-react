@@ -76,20 +76,22 @@ class About extends Component {
                                                     {aboutTextP3}
                                                 </div>
                                                 <hr></hr>
-                                                <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
-                                                    <FontAwesomeIcon icon={faVolleyball} className="fs-3"/> 
-                                                </div>
-                                                <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
-                                                    <FontAwesomeIcon icon={faBicycle} className="fs-3"/> 
-                                                </div>
-                                                <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
-                                                    <FontAwesomeIcon icon={faUmbrellaBeach} className="fs-3"/> 
-                                                </div>
-                                                <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
-                                                    <FontAwesomeIcon icon={faMusic} className="fs-3"/> 
-                                                </div>
-                                                <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
-                                                    <FontAwesomeIcon icon={faGamepad} className="fs-3"/> 
+                                                <div className="col-auto d-flex justify-content-evenly">
+                                                    <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
+                                                        <FontAwesomeIcon icon={faVolleyball} className="fs-3"/> 
+                                                    </div>
+                                                    <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
+                                                        <FontAwesomeIcon icon={faBicycle} className="fs-3"/> 
+                                                    </div>
+                                                    <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
+                                                        <FontAwesomeIcon icon={faUmbrellaBeach} className="fs-3"/> 
+                                                    </div>
+                                                    <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
+                                                        <FontAwesomeIcon icon={faMusic} className="fs-3"/> 
+                                                    </div>
+                                                    <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
+                                                        <FontAwesomeIcon icon={faGamepad} className="fs-3"/> 
+                                                    </div>
                                                 </div>
                                             </div>
                                         </motion.div>
