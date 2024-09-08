@@ -14,9 +14,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .about-section {
-    padding-top: 15%;
+  .home-section {
+    margin-top: 5rem;
   }
+}
+
+.section {
+  scroll-margin-top: 80px;
 }
 
 .App-header {
@@ -41,4 +45,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a:link, a:visited, a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
 }
