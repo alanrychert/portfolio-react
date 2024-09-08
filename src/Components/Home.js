@@ -29,7 +29,7 @@ class Home extends Component {
                     <motion.div
                         initial="offscreen"
                         whileInView="onscreen"
-                        viewport={{ once: false, amount: 0.8 }}
+                        viewport={{ once: false, amount: 0.2 }}
                     >
                         <motion.div variants={fadeInVariants}>
                             <div
