@@ -1,21 +1,39 @@
 [
     {
-      "title": "Project 1",
-      "text": "Description for Project 1",
-      "imgSrc": "Images/profile.jpg",
+        "title": "ScapeGPT",
+        "text": "Mobile app developed in late 2023 using Unity 3D and Google Cardboard, featuring a virtual reality escape room where the player can communicate with ChatGPT via voice commands to receive help.",
+        "imgSrc": "Images/scapeGPT.jpg",
+        "link": "https://github.com/alanrychert/scape-gpt"
+    },
+    {
+        "title": "EATI Pexels",
+        "text": "Mobile app developed in 2023 using Kotlin. The project utilized Jetpack Compose to create a layout for searching and displaying images related to user-input concepts, which were retrieved through an API.",
+        "imgSrc": "Images/EATI-pexels.jpg",
+        "link": "https://github.com/alanrychert/EATI-Pexels"
+    },
+    {
+      "title": "Selenium Webdriver Testing",
+      "text": "Developed in 2021 using Java and Selenium Webdriver, consists of various tests applied to the Sauce Demo webpage (https://www.saucedemo.com/).",
+      "imgSrc": "Images/selenium-webdriver.jpg",
       "link": "/#"
     },
     {
-      "title": "Project 2",
-      "text": "Description for Project 2",
-      "imgSrc": "Images/profile.jpg",
-      "link": "/#"
+        "title": "Vacunacion C4",
+        "text": "This web application, developed by a four-member team in 2021 using Laravel and Node.js, was designed to manage vaccination records and stock levels across various locations in Argentina.",
+        "imgSrc": "Images/VacunacionC4.jpg",
+        "link": "https://github.com/alanrychert/vacunacionc4"
     },
     {
-      "title": "Project 3",
-      "text": "Description for Project 3",
-      "imgSrc": "Images/profile.jpg",
-      "link": "/#"
-    }
+        "title": "Tomalan",
+        "text": "Mobile app developed in 2020 as the final project for the 'Tecnología de Programación' course, designed as a game for pre-drinking gatherings with friends. ",
+        "imgSrc": "Images/tomalan.jpg",
+        "link": "https://github.com/alanrychert/TDP_app"
+      },
+      {
+        "title": "Parkimeter Management App",
+        "text": "Java-based application developed in 2020 that allows users to manage a database of parkimeters through a basic GUI. The application enables users to perform various actions related to car parking management.",
+        "imgSrc": "Images/parking.png",
+        "link": "https://github.com/alanrychert/Proyecto_BD"
+      }
   ]
   
