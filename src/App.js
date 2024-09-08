@@ -1,6 +1,7 @@
 import './App.css';
 import About from './Components/About';
 import Home from './Components/Home';
+import Projects from './Components/Projects';
 
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
                 <li class="nav-item">
                   <a class="nav-link" style={{color: "white"}} href="#About">About</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" style={{color: "white"}} href="#Projects">Projects</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -31,6 +35,9 @@ function App() {
         </section>
         <section id="About">
           <About /> 
+        </section>
+        <section id="Projects">
+          <Projects /> 
         </section>
       </body>
     </div>

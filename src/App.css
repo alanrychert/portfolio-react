@@ -52,3 +52,14 @@ a:link, a:visited, a:active {
   background-color: transparent;
   text-decoration: none;
 }
+
+.btn-custom{
+  background-color: black !important;
+  color:white !important;
+}
+
+.custom-btn:hover {
+  background-color: #ADD8E6 !important;
+  color:black !important;
+
+}
