@@ -3,6 +3,25 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBicycle, faGamepad, faMusic, faUmbrellaBeach, faVolleyball } from '@fortawesome/free-solid-svg-icons';
 
+const aboutTextP1 = `
+Hi! My name is Alan, and I am a recently graduated Software Engineer. I’m 24 years old, and in April 2024, I moved 
+from Bahía Blanca, Argentina, to Amsterdam, Netherlands. My goal is to improve my English and experience life in 
+a country with a completely different culture and traditions.
+`;
+const aboutTextP2 = `
+I’m an active person who enjoys social gatherings like barbecues and volleyball matches. I also appreciate quiet 
+days at the beach or biking around a park, always with headphones and my favorite music. And, of course, I 
+love video games, especially MMORPGs.
+`;
+const aboutTextP3 = `
+One of the most rewarding aspects for me is solving complex problems. Algorithmic challenges, in particular, 
+present an intriguing puzzle, and I value the process of working through them to find a solution. This interest 
+in tackling complex issues was a key reason I pursued a degree in Software Engineering. Additionally, I enjoy 
+collaborating with clients to analyze their needs and working to deliver the best possible solutions. I appreciate 
+participating in meetings, working with different departments, and discussing various options to develop the most 
+effective solutions.
+`;
+
 const fadeInRightVariants: Variants = {
     offscreen: {
       x: 150,
@@ -36,26 +55,25 @@ class About extends Component {
                                     <motion.div
                                         initial="offscreen"
                                         whileInView="onscreen"
-                                        viewport={{ once: false, amount: 0.8 }}
+                                        viewport={{ once: false, amount: 0.2 }}
                                     >
                                         <motion.div className="card" variants={fadeInRightVariants}>
                                             <div
-                                            className="card-body text-justify ml-3 mr-3"
+                                            className="card-body ml-3 mr-3"
                                             style={{
                                                 height: "auto",
                                                 fontSize: "132%",
                                                 lineHeight: "200%",
                                             }}
                                             >
-                                                <div className="flex-column d-flex align-items-center justify-content-center">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at enim est. 
-                                                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
-                                                    turpis egestas. Vivamus lacinia placerat imperdiet. Quisque non massa a enim 
-                                                    pellentesque cursus. Morbi enim enim, hendrerit eget lacus a, placerat semper 
-                                                    nibh. Curabitur eget egestas nisl, a aliquam libero. Donec scelerisque ornare 
-                                                    massa, at ultricies risus sagittis sed. Nunc id nibh dolor. Lorem ipsum dolor 
-                                                    sit amet, consectetur adipiscing elit. Etiam varius tempus est, in semper 
-                                                    neque scelerisque nec.
+                                                <div style={{textAlign: 'justify'}}>
+                                                    {aboutTextP1}
+                                                    <br></br>
+                                                    <br></br>
+                                                    {aboutTextP2}
+                                                    <br></br>
+                                                    <br></br>
+                                                    {aboutTextP3}
                                                 </div>
                                                 <hr></hr>
                                                 <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
