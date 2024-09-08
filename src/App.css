@@ -17,6 +17,24 @@
   .home-section {
     margin-top: 5rem;
   }
+
+  .card-text {
+    height: 20vh;
+  }
+}
+
+.card-img-top {
+  height: 40vh;
+  object-fit: cover;
+}
+
+.card-text {
+  height: 15vh;
+  overflow-y: auto;
+}
+
+.custom-text-size{
+  font-size: 0.9rem;
 }
 
 .section {

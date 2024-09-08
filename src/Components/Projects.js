@@ -12,7 +12,7 @@ class Projects extends Component {
               <span>Projects</span>
             </h1>
           </div>
-          <div className="row d-flex justify-content-evenly">
+          <div className="row d-flex justify-content-evenly align-items-stretch">
             {projectsData.map((project, index) => (
               <div className="col-auto p-4" key={index}>
                 <Project

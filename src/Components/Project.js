@@ -26,12 +26,15 @@ const Project = ({ title, text, imgSrc, link }) => {
       whileInView="onscreen"
       viewport={{ once: false, amount: 0.2 }}
     >
-      <motion.div className="card" variants={fadeInVariants} style={{ width: "15rem" }}>
-        <img className="card-img-top" src={imgSrc} alt="Card cap" />
+      <motion.div className="card" variants={fadeInVariants} style={{ width: "20rem" }}>
+        <img className="card-img-top" src={imgSrc} alt="Card cap"/>
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
-          <p className="card-text">{text}</p>
-          <a href={link} className="btn btn-custom">
+          <p className="card-text custom-text-size" style={{textAlign: "justify"}}>{text}</p>
+          <a href={link} 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-custom">
             Repository <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
