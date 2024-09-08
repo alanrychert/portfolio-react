@@ -8,13 +8,13 @@
     {
         "title": "EATI Pexels",
         "text": "Mobile app developed in 2023 using Kotlin. The project utilized Jetpack Compose to create a layout for searching and displaying images related to user-input concepts, which were retrieved through an API.",
-        "imgSrc": "Images/EATI-pexels.jpg",
+        "imgSrc": "Images/EATIPexels.jpg",
         "link": "https://github.com/alanrychert/EATI-Pexels"
     },
     {
       "title": "Selenium Webdriver Testing",
       "text": "Developed in 2021 using Java and Selenium Webdriver, consists of various tests applied to the Sauce Demo webpage (https://www.saucedemo.com/).",
-      "imgSrc": "Images/selenium-webdriver.jpg",
+      "imgSrc": "Images/seleniumWD.jpg",
       "link": "/#"
     },
     {
