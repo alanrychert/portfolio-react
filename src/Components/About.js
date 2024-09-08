@@ -67,13 +67,9 @@ class About extends Component {
                                             }}
                                             >
                                                 <div style={{textAlign: 'justify'}}>
-                                                    {aboutTextP1}
-                                                    <br></br>
-                                                    <br></br>
-                                                    {aboutTextP2}
-                                                    <br></br>
-                                                    <br></br>
-                                                    {aboutTextP3}
+                                                    <p className="about-text-size">{aboutTextP1}</p>
+                                                    <p className="about-text-size">{aboutTextP2}</p>
+                                                    <p className="about-text-size">{aboutTextP3}</p>
                                                 </div>
                                                 <hr></hr>
                                                 <div className="col-auto d-flex justify-content-evenly">
