@@ -33,6 +33,10 @@
   overflow-y: auto;
 }
 
+.card-title{
+  height: 7vh;
+}
+
 .project-text-size{
   font-size: 0.9rem;
 }
