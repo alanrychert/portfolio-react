@@ -39,7 +39,7 @@
         "location": "Bahía Blanca, Argentina (Remote)",
         "company": "Naaloo",
         "description":
-          "Contributed to developing an application designed to simplify human resources management by modifying, extending, and implementing modules, testing the app to ensure functionality and performance, and working within a methodology similar to SCRUM",
+          "Contributed to developing an application designed to simplify human resources management by modifying, extending, and implementing modules, testing the app to ensure functionality and performance, and working within a methodology similar to SCRUM.",
         "date": " March 2022 - July 2022 ",
         "technologies": ["AngularJS", ".Net Core", "NancyFx", "Amazon S3", "Jira", "Postman", "MySQL"]
     }
