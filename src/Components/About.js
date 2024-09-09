@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBicycle, faGamepad, faMusic, faUmbrellaBeach, faVolleyball } from '@fortawesome/free-solid-svg-icons';
 
 const aboutTextP1 = `
-Hi! My name is Alan, and I am a recently graduated Software Engineer. I’m 24 years old, and in April 2024, I moved 
-from Bahía Blanca, Argentina, to Amsterdam, Netherlands. My goal is to improve my English and experience life in 
-a country with a completely different culture and traditions.
+Hi! I’m Alan, a recently graduated Software Engineer, currently 24 years old. In April 2024, I made the move from 
+Bahía Blanca, Argentina, to Amsterdam, Netherlands. I moved here to further develop my English proficiency and to 
+experience life in a country with a rich and unique cultural backdrop.
 `;
 const aboutTextP2 = `
 I’m an active person who enjoys social gatherings like barbecues and volleyball matches. I also appreciate quiet 
