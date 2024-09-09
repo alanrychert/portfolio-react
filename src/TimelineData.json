@@ -15,7 +15,7 @@
         "description":
           "Engaged in client meetings to capture and analyze requirements for an internal application developed for a third-party company in the agricultural sector, aimed at simplifying their operations. Designed solutions addressing database, algorithmic, and visual (GUI) aspects based on client needs, and created and prioritized user stories for the project backlog. Led daily and planning meetings (occasionally), as well as refinement meetings, working within a methodology similar to SCRUM. Developed and executed a detailed migration plan, including database mappings, data transformation algorithms, and execution sequencing.",
         "date": " November 2023 - May 2024 ",
-        "technologies": ["Microsoft Azure", "MySQL", "Figma", "Postman", "Microsoft Office Suite"]
+        "technologies": ["Microsoft Azure DevOps", "MySQL", "Figma", "Postman", "Microsoft Office Suite"]
     },
     {
         "title": "Teaching Assistant",
