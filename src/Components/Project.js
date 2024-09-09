@@ -6,15 +6,17 @@ import { motion } from "framer-motion";
 const fadeInVariants: Variants = {
     offscreen: {
       y:150,
-      opacity: 0
+      opacity: 0,
+      pointerEvents: "none",
     },
     onscreen: {
       opacity: 1,
       y:0,
+      pointerEvents: "auto",
       transition: {
         type: "spring",
         bounce: 0.4,
-        duration: 1.2
+        duration: 1.2,
       }
     }
   };
