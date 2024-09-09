@@ -18,12 +18,6 @@ const fadeInVariants: Variants = {
     }
   };
 
-  const handleEmailRedirect = () => {
-    const email = 'alanrychert@gmail.com';
-    const mailtoLink = `mailto:${email}`;
-    window.location.href = mailtoLink;
-  };
-
 class Home extends Component {
     render() {
   
@@ -93,7 +87,7 @@ class Home extends Component {
                         viewport={{ once: false, amount: 0.8 }}
                     >
                         <motion.div className="card" variants={fadeInVariants}>
-                            <img src="Images/profile.jpg" class="img-thumbnail" alt="..."/>
+                            <img src="Images/profile.jpg" className="img-thumbnail" alt="..."/>
                         </motion.div>
                     </motion.div>
                   </span>
