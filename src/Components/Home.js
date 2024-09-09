@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faMapLocation } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faMapLocation } from "@fortawesome/free-solid-svg-icons";
 
 const fadeInVariants: Variants = {
     offscreen: {
@@ -16,6 +16,12 @@ const fadeInVariants: Variants = {
         duration: 1.2
       }
     }
+  };
+
+  const handleEmailRedirect = () => {
+    const email = 'alanrychert@gmail.com';
+    const mailtoLink = `mailto:${email}`;
+    window.location.href = mailtoLink;
   };
 
 class Home extends Component {
@@ -63,6 +69,11 @@ class Home extends Component {
                                                 target="_blank"
                                                 rel="noopener noreferrer">
                                                 <FontAwesomeIcon icon={faGithub} className="fs-3"/>
+                                            </a>
+                                        </div>
+                                        <div className="d-inline-block p-2 border rounded m-2" style={{backgroundColor: "#ADD8E6"}}> 
+                                            <a href="mailto:alanrychert@gmail.com">
+                                                <FontAwesomeIcon icon={faEnvelope} className="fs-3"/>
                                             </a>
                                         </div>
                                     </div>
