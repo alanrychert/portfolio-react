@@ -45,8 +45,50 @@
   font-size: 1.1rem;
 }
 
+.timeline-text-size{
+  font-weight: 400 !important;
+}
+
 .section {
   scroll-margin-top: 80px;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.vertical-timeline-element-subtitle{
+  color: grey !important;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+
+  }
+}
+
+.tech-pill-container {
+  margin-top: 10px; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech-pill {
+  background-color: #ADD8E6;
+  color: black; /* Text color */
+  padding: 5px 10px;
+  margin: 5px; 
+  border-radius: 20px; 
+  font-size: 0.85em; 
+  display: inline-block;
+}
+
+.date {
+  color: black;
+  opacity: 1 !important;
 }
 
 .App-header {
@@ -87,5 +129,4 @@ a:link, a:visited, a:active {
 .custom-btn:hover {
   background-color: #ADD8E6 !important;
   color:black !important;
-
 }

@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Supply Chain Planner",
+        "location": "Hoofddorp, Netherlands",
+        "company": "DP World",
+        "description":
+          "Oversee the efficient and timely delivery of goods by collaborating cross-functionally with Operations, Customer Service, Inventory, Quality, and Security teams. Key responsibilities include coordinating transportation and order booking with external partners, managing and resolving supply chain issues, and ensuring accurate and complete documentation for inbound and outbound orders. Additionally, generate and analyze daily reports to maintain transparency and drive continuous improvement throughout the order lifecycle.",
+        "date": " June 2024 - Now ",
+        "technologies": ["JDA", "SAP", "Google Office Suite"]
+    },
+    {
+        "title": "Business Analyst",
+        "location": "Bahía Blanca, Argentina (Remote)",
+        "company": "Assertia Solutions",
+        "description":
+          "Engaged in client meetings to capture and analyze requirements for an internal application developed for a third-party company in the agricultural sector, aimed at simplifying their operations. Designed solutions addressing database, algorithmic, and visual (GUI) aspects based on client needs, and created and prioritized user stories for the project backlog. Led daily and planning meetings (occasionally), as well as refinement meetings, working within a methodology similar to SCRUM. Developed and executed a detailed migration plan, including database mappings, data transformation algorithms, and execution sequencing.",
+        "date": " November 2023 - May 2024 ",
+        "technologies": ["Microsoft Azure", "MySQL", "Figma", "Postman", "Microsoft Office Suite"]
+    },
+    {
+        "title": "Teaching Assistant",
+        "location": "Bahía Blanca, Argentina",
+        "company": "Universidad Nacional del Sur",
+        "description":
+          "Facilitated student learning across various university courses, including 'Databases,' 'Systems Requirements,' and others, by providing guidance and support throughout their academic journey.",
+        "date": " October 2019 - February 2024 "
+    },
+    {
+        "title": "Business Analyst",
+        "location": "Bahía Blanca, Argentina (Remote)",
+        "company": "Naaloo",
+        "description":
+          "Engaged in client meetings to capture and analyze requirements for an application designed to simplify human resources management. Designed solutions addressing database, algorithmic, and visual (GUI) aspects based on client needs, and created and prioritized user stories for the project backlog. Led refinement meetings, working within a methodology similar to SCRUM, to ensure the project aligned with client expectations and requirements.",
+        "date": "May 2023 - November 2023",
+        "technologies": ["Jira", "MySQL", "Figma", "Postman", "Confluence"]
+    },
+    {
+        "title": "Fullstack Developer - Intern",
+        "location": "Bahía Blanca, Argentina (Remote)",
+        "company": "Naaloo",
+        "description":
+          "Contributed to developing an application designed to simplify human resources management by modifying, extending, and implementing modules, testing the app to ensure functionality and performance, and working within a methodology similar to SCRUM",
+        "date": " March 2022 - July 2022 ",
+        "technologies": ["AngularJS", ".Net Core", "NancyFx", "Amazon S3", "Jira", "Postman", "MySQL"]
+    }
+  ]
