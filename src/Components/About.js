@@ -45,7 +45,7 @@ class About extends Component {
                 <div className="row h-100">
                     <div className="col-md-12 about-section pt-5 pl-2 pr-2" >
                         <h1 style={{ color: "black", paddingBottom: "2%" }}>
-                        <span>About me</span>
+                        <span>About Me</span>
                         </h1>
                         <div className="pl-2 pr-2 row center mx-auto mb-5 justify-content-center align-items-center">
                             <div className="col-md-10 center">
