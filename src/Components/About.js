@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBicycle, faGamepad, faMusic, faUmbrellaBeach, faVolleyball } from '@fortawesome/free-solid-svg-icons';
 
 const aboutTextP1 = `
-Hi! Hi! I’m Alan, a recently graduated Software Engineer who relocated from Bahía Blanca, Argentina, to Amsterdam, Netherlands, in April 2024. I moved here to further develop my English proficiency and immerse myself in a different culture.
+Hi! I’m Alan, a recently graduated Software Engineer who relocated from Bahía Blanca, Argentina, to Amsterdam, Netherlands, in April 2024. I moved here to develop my English proficiency, immerse myself in a different culture, and futher advance my career.
 `;
 const aboutTextP2 = `
 I’m an active person who enjoys social gatherings like barbecues and volleyball matches. I also appreciate quiet 
@@ -12,12 +12,12 @@ days at the beach or biking around a park, always with headphones and my favorit
 love video games, especially MMORPGs.
 `;
 const aboutTextP3 = `
-One of the most rewarding aspects for me is solving complex problems. Algorithmic challenges, in particular, 
-present an intriguing puzzle, and I value the process of working through them to find a solution. This interest 
-in tackling complex issues was a key reason I pursued a degree in Software Engineering. Additionally, I enjoy 
-collaborating with clients to analyze their needs and working to deliver the best possible solutions. I appreciate 
-participating in meetings, working with different departments, and discussing various options to develop the most 
-effective solutions.
+One of the most rewarding aspects of my work is solving complex problems. Algorithmic challenges, in particular, 
+present an intriguing puzzle, and I enjoy the process of working through them to find a solution. This passion for 
+tackling complex issues was a key reason I pursued a degree in Software Engineering. Additionally, I 
+thrive on collaborating with clients to analyze their needs and deliver impactful solutions. I value 
+participating in meetings, working with different departments, and exploring various options to develop 
+the most effective solutions, as well as taking hands-on action to implement them.
 `;
 
 const fadeInRightVariants: Variants = {
