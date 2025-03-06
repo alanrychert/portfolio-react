@@ -45,7 +45,7 @@ class Home extends Component {
                                             <h1 style={{fontWeight: "bold"}}>Alan Rychert</h1>
                                             <h4 style={{color: "grey"}}> Software Engineer </h4>
                                             <span>
-                                                <h6 style={{color: "light-grey"}}> <FontAwesomeIcon icon={faMapLocation}/> Amsterdam, NL</h6>
+                                                <h6 style={{color: "light-grey"}}> <FontAwesomeIcon icon={faMapLocation}/> Barcelona, Spain</h6>
                                             </span>
                                             <br/>
                                         </div>

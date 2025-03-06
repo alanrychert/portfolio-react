@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBicycle, faGamepad, faMusic, faUmbrellaBeach, faVolleyball } from '@fortawesome/free-solid-svg-icons';
 
 const aboutTextP1 = `
-Hi! I’m Alan, a recently graduated Software Engineer who relocated from Bahía Blanca, Argentina, to Amsterdam, Netherlands, in April 2024. I moved here to develop my English proficiency, immerse myself in a different culture, and futher advance my career.
+Hi! I’m Alan, a Software Engineer who relocated from Bahía Blanca, Argentina, to Amsterdam, Netherlands, in April 2024 to improve my English and experience a new culture. After achieving that goal, I moved to Barcelona, Spain, to focus on advancing my career.
 `;
 const aboutTextP2 = `
 I’m an active person who enjoys social gatherings like barbecues and volleyball matches. I also appreciate quiet 
